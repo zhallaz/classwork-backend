@@ -1,5 +1,5 @@
 const Product = require("../models/product.Model.js");
-const User = require("../models/user.models.js");
+const User = require("../models/user.Models.js");
 exports.createProduct = async (req, res) => {
   try {
     const { title, description, price, rating, image, quantity, createdBy } = req.body;
